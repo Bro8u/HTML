@@ -1,0 +1,96 @@
+ 
+.container{
+    width: 960px;
+    margin: auto;
+     
+    
+}
+.header h1{
+    text-align: center;
+     
+}
+.content{
+    width: 960px;
+    display: flex;
+     
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    
+}
+.bar li{
+    width: 170px;
+    height: 170px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+     
+}
+.info{
+    margin: 0;
+    padding: 0;
+}
+.info li{
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 200px;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+     
+}
+.info li:nth-child(3){
+    border-bottom: none;
+}
+.img{
+    width: 170px;
+    height: 170px;
+}
+.imges_two{
+    margin: 0px;
+    padding: 0px;
+}
+.title, .month{
+    
+    text-align: center;
+}
+.picture{
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+.imges{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.one{
+    background-image: url(https://my-live.slatic.net/v2/resize/products/101280446-0086991da7c78b84cb1e5811bd376021.jpg);
+    
+}
+.two{
+    background-image: url(https://storage.vsemayki.ru/images/0/1/1919/1919633/previews/people_1_pad_front_white_500.jpg);
+}
+.three{
+    background-image: url(https://novinkimebeli.ru/wp-content/uploads/2018/01/Kompyuternyiy-stol-73.jpg);
+}
+.date{
+    opacity: 0.5;
+}
+.deviz{
+    font-weight: 700;
+}
+
+
+ 
+ 

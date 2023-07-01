@@ -1,0 +1,65 @@
+.big{
+    width:300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+}
+.livepicture{
+    color: red;
+    width: 3000px;
+    height: 300px;
+    background-image: url(https://c7.uihere.com/files/829/932/875/5bbf9f9fea71e.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    border-radius: 50%;
+    transition: all 1s linear;
+    
+}
+.livepicture:hover{
+    color: yellow;
+    transform: rotate(360deg) scale(1);
+    background-image: url(https://http2.mlstatic.com/super-man-super-homem-papel-de-arroz-redondo-20-cm-bolo-D_NQ_NP_140805-MLB25069068952_092016-F.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+}
+.picture{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

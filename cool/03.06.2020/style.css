@@ -1,0 +1,97 @@
+.container{
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
+    position: absolute;
+    
+}
+.block1, .block2, .block3{
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    position: relative
+}
+.block1{
+    top: 50px;
+    left: 10px;
+}
+.block2{
+    top:100px;
+    left: 110px;
+    
+}
+.block3{
+    top: 150px;
+    left: 210px;
+}
+
+@keyframes fall_ball{
+    0%{
+        transform: translate(0px,0px);
+    }
+    14%{
+        transform: translate(0,50px);
+    }
+    28%{
+        transform: translate(110px,50px);
+    }
+    42%{
+        transform: translate(110px,120px);
+    }
+    56%{
+        transform: translate(210px,120px);
+    }
+    70%{
+        transform: translate(210px,190px);
+    }
+    
+    84%{
+        transform: translate(310px,190px);
+    }
+    100%{
+        transform: translate(310px,580px);
+       
+        
+    }
+    
+   
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: fall_ball;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both; 
+        
+
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.bl{
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+td, th {
+    border: 1px solid black;
+   
+    
+}
+.big{
+    border: 2px solid red;
+}
+.small{
+    border: 2px solid blue;
+}
+ 
+/*
+.big:hover{
+    border-color: red;
+}
+.small:hover{
+    border-color: blue;
+
+}*/
